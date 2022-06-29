@@ -1,0 +1,90 @@
+.skills_hobbies {
+    width: 1136px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.skills {
+    padding: 2em;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+}
+
+.lista {
+    padding: 2em 0 2em;
+}
+
+.items_lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items_skills {
+    background: #ffffff;
+    width: 160px;
+    height: 158px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 16px 16px;
+    flex-direction: column;
+}
+
+.items_hobbies {
+    background: #ffffff;
+    width: 160px;
+    height: 158px;
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 16px 16px;
+    flex-direction: column;
+}
+
+.titulo_items {
+    color: #464646;
+    font-weight: 700;
+}
+
+.formacionAcademica {
+    background: #eaf2fd;
+    padding: 4em 0;
+}
+
+.academico {
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.lista_academico {
+    padding-top: 2em;
+}
+
+.items_lista_academico {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_academico {
+    width: 368px;
+    height: 286px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrera_fecha {
+    color: #464646;
+}
+
+.carrera {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0.5em 0;
+}

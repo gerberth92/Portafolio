@@ -1,0 +1,42 @@
+.presentacion {
+    display: flex;
+    width: 1136px;
+    margin: 0 auto;
+    padding: 32px 0 32px;
+    justify-content: space-between;
+}
+
+.nombreYformacion {
+    width: 751px;
+}
+
+.nombre {
+    font-size: 52px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.formacion {
+    margin-top: 24px;
+    font-size: 22px;
+    color: #464646;
+}
+
+.ls {
+    display: inline;
+    padding-right: 33px;
+}
+
+.vector {
+    padding-left: 4px;
+}
+
+.links {
+    margin-top: 26.5px;
+}
+
+.imagenPerfil {
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}

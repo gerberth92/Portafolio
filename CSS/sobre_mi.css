@@ -1,0 +1,21 @@
+.sobre_mi {
+    background: #eaf2fd;
+    padding-top: 3em;
+}
+
+.contenido_sobre {
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.titulo_sobre {
+    font-size: 32px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.parrafo_sobre {
+    color: #464646;
+    width: 750px;
+    padding: 1em 0;
+}

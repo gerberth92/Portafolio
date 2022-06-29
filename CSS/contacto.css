@@ -1,0 +1,99 @@
+.contacto {
+    background: #eaf2fd;
+}
+
+.tabla_contacto {
+    width: 1136px;
+    margin: 0 auto;
+    padding: 8em 0 4em;
+}
+
+.imagen_contacto__formulario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_contacto {
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+    padding-bottom: .5em;
+}
+
+.quieres_contactarme {
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
+.elementos_formulario {
+    padding-bottom: 32px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-bottom: 1px solid #c8c8c8;
+    height: 55px;
+    border-radius: 4px;
+}
+
+span {
+    font-size: 12px;
+    color: #a2a2a2;
+    padding: 8px 0 0 12px;
+}
+
+.input_nombre__email {
+    height: 55px;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+    color: #464646;
+    padding: 4px 0 0 12px;
+}
+
+.input_asunto {
+    height: 55px;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+    padding-left: 12px;
+}
+
+.mensaje {
+    background: #ffffff;
+    border-bottom: 1px solid #c8c8c8;
+    height: 132px;
+    border-radius: 4px;
+}
+
+.input_mensaje {
+    height: 132px;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+    padding: 16px 0 93px 12px;
+
+}
+
+.input_asunto::-webkit-input-placeholder, .input_mensaje::-webkit-input-placeholder {
+    color: #a2a2a2;
+    font-size: 16px;
+}
+
+.input_nombre__email:focus, .input_asunto:focus, .input_mensaje:focus {
+    border-bottom: 2px solid #2A7AE4;
+    outline: none;
+}
+
+.enviar {
+    margin-top: 32px;
+    padding: 16px 16px;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #ffffff;
+}

@@ -1,0 +1,78 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .navegacion:nth-child(1),
+    .navegacion:nth-child(2),
+    .navegacion:nth-child(3),
+    .navegacion:nth-child(4),
+    .navegacion:nth-child(5),
+    .items_hobbies:nth-child(3),
+    .telefono {
+
+        display: none;
+    }
+
+    .encabezado {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nombreYformacion, .parrafo_sobre, .img_carrera__fecha {
+        width: auto;
+        padding: 0 32px;
+    }
+
+    .img_academico {
+        width: auto;
+    }
+
+    .presentacion, .proyecto_izquierda {
+        flex-direction: column-reverse;
+    }
+
+    .imagenPerfil, .titulo_sobre, .img_firma {
+        padding-left: 32px;
+    }
+
+    .items_lista {
+        justify-content: space-evenly;
+    }
+
+    .proyecto_derecha, .imagen_contacto__formulario, .items_lista_academico {
+        flex-direction: column;
+    }
+
+    .proyecto_derecha, .proyecto_izquierda, .contacto_formulario {
+        padding: 32px 32px;
+    }
+
+    .nombre_reto__botones___derecha {
+        padding-left: 0;
+    }
+
+    .tabla_contacto, .experiencia_profesional, .img_carrera__fecha {
+        padding-top: 32px;
+    }
+
+    .contenido_sobre, .imagenPerfil {
+        padding-bottom: 32px;
+    }
+}
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

@@ -1,0 +1,59 @@
+.proyectos {
+    width: 1136px;
+    margin: 0 auto;
+    padding: 1.5em 0 0;
+}
+
+.proyecto_derecha {
+    display: flex;
+    padding: 2em 0;
+}
+
+.nombre_reto__botones___derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+}
+
+.nombre_proyecto {
+    font-size: 22px;
+    color: #464646;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+.reto_proyecto {
+    color: #464646;
+    padding-bottom: 0.5em;
+}
+
+.botones {
+    display: flex;
+    gap: 16px;
+}
+
+.repositorio {
+    padding: 1em 1em;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+}
+
+.demo {
+    padding: 1em 1em;
+    background: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #ffffff;
+}
+
+.proyecto_izquierda {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.nombre_reto__botones___izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
